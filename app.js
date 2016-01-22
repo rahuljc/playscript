@@ -22,8 +22,16 @@
 		setTimeout(function(){
 			console.log("Next song is ");
 		},currentSong.duration*1000)
+
+		return this;
 	}
 
+	function displaySong(){
+		console.log(this.currentSong);
+	}
 	
+	var M = M$ = function(){
+		return new 
+	}
 })(window)
 
